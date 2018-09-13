@@ -1,0 +1,11 @@
+sudo: false
+
+language: java
+
+jdk:
+ - openjdk10
+ - openjdk11
+ - openjdk-ea
+
+script:
+  - javac src/CompilerBug.java
